@@ -1,0 +1,23 @@
+# Date: 2025-01-13
+
+## What I Learned Today
+Git Repository Setup Process:
+
+1. Initialize local repository:
+   - `git init`
+
+2. Create GitHub repository:
+   - Created through GitHub website
+   - Named it "programming-journal"
+
+3. Connect local to remote:
+   - `git remote add origin [repository-url]`
+   - Verified with `git remote -v`
+
+4. Commit and Push Process:
+   - `git add .` (stages all changes)
+   - `git commit -m "meaningful message here"`
+   - `git push origin main`
+
+Note: Always verify changes are staged with `git status`
+Pulling will be covered in another file once I actually use it.
